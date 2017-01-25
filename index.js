@@ -14,19 +14,17 @@
 		
 		}
 		);
-/**
+
 		if (!args.baseUrl || !args.apiBaseUrl || !args.token)
 		{
 			alert('Missing baseUrl, apiBaseUrl or token.');
 			return;
-		}**/
-		var baseUrl = decodeURIComponent("https:%2F%2Fapp.leanix.net%2Fcti&");
-		var apiBaseUrl = decodeURIComponent("https:%2F%2Fapp.leanix.net%2Fcti%2Fapi%2Fv1&");
-		var token ='7TBwhs2nWHX4tJeBgLAYnWCKtVtB6VazxvaebFch' ;
-/**
+		}
+		
+
 		var baseUrl = decodeURIComponent(args.baseUrl);
 		var apiBaseUrl = decodeURIComponent(args.apiBaseUrl);
-		var token = args.token;**/
+		var token = args.token;
 		//creates the Variable Users
 		var Users;
 		//Always includes token into auth header
